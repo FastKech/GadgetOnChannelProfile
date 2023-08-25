@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+li {
+  list-style-type: none;
+}
+ul {
+  padding-left: 0;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin: 0 1em;
+  margin-top: 7px;
+}
+.hrOne {
+  transform: rotate(90deg);
+  width: 35px;
+  position: relative;
+  bottom: 25px;
+  left: 600px;
+}
+nav div img {
+  position: relative;
+  bottom: 54px;
+  right: 160px;
+}
+nav div p {
+  position: relative;
+  bottom: 104px;
+  right: 20px;
+  color: black;
+}
+nav div {
+  text-align: right;
+}
+nav {
+  position: fixed;
+  width: 100.5%;
+  margin-top: -50px;
+  margin-left: -15px;
+  background-color: whitesmoke;
+  height: 70px;
+}
+p,
+a,
+h2,
+h1,
+h3,
+h4,
+h5,
+h6 {
+  color: green;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+a:hover {
+  color: rgb(3, 84, 3);
+}
+.MyProfile {
+  float: left;
+  margin-top: 100px;
+}
+.MyProfileDiv {
+  position: relative;
+  top: 100px;
+  right: 100px;
+}
+.MyProfileH2 {
+  font-size: 60px;
+}
+.MyProfileP {
+  position: relative;
+  top: 100px;
+  left: 200px;
+  font-size: 20px;
+}
+.MyProfileHr {
+  position: relative;
+  top: 250px;
+  right: 120px;
+}
+.Youtube {
+  width: 600px;
+  position: relative;
+  top: 300px;
+  left: 350px;
+}
